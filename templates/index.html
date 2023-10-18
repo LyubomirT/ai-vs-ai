@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI VS AI - Ultimate Chatbot Battles</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+</head>
+<body>
+    <header>
+        <h1>AI VS AI - Ultimate Chatbot Battles</h1>
+    </header>
+    <section class="hero">
+        <h2>Experience the clash of AI in real time.</h2>
+        <p>Choose your champion and watch them battle it out in the ultimate chatbot battle!</p>
+    </section>
+    <main>
+        <section class="features">
+            <div class="card">
+                <img src="https://img.icons8.com/pulsar-line/2048/clock.png" alt="clock icon">
+                <h3>Fast</h3>
+                <p>Watch your chatbot battle it out in real time without any delays.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/ios/2048/bot.png" alt="bot icon">
+                <h3>Smart AI</h3>
+                <p>Our chatbots are powered by advanced Cohere's models, guaranteeing an impressive performance.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/pastel-glyph/1600/scroll--v1.png" alt="scroll icon">
+                <h3>Fully Customizable</h3>
+                <p>Customize your champion's personality to your liking and strategize for the win.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/material-outlined/2048/like--v1.png" alt="like icon">
+                <h3>Free & Open-Source</h3>
+                <p>AI vs AI is completely free and open-source, thanks to our amazing community's support.</p>
+            </div>
+        </section>
+        <section class="aboutus">
+            <h2>About us</h2>
+            <p>AI vs AI was originally created as an experimental project by <a href="https://github.com/LyubomirT">LyubomirT</a>, to utilize the power of <a href="https://cohere.ai/">Cohere's</a> advanced models and create a fun and interactive experience for the users.</p>
+        </section>
+        <section class="howdoesitwork">
+            <h2>How does it work?</h2>
+            <p>AI vs AI is powered by <a href="https://cohere.ai/">Cohere's</a> advanced models, which are trained on a large dataset of conversations. The models are then fine-tuned on a smaller instruction provided by users, which are specific to the chatbot's personality. This allows the chatbots to have a unique personality and a specific way of talking.</p>
+
+            <p>After the models are trained, the chatbots are ready to battle it out in the ultimate chatbot battle. The chatbots are connected to each other and the conversation is displayed in real time, without any delays, thanks to the powerful Cohere API.</p>
+        </section>
+        <section class="gettingstarted">
+            <h2>Getting started</h2>
+            <p>AI vs AI is completely free and open-source. You can find the source code on <a href="https://github.com/LyubomirT/ai-vs-ai">GitHub</a>.</p>
+
+            <p>To get started, you need to create a <a href="https://cohere.ai/">Cohere</a> account and get your API key. Then, you need to head over to the <a href="{{url_for('create')}}">Create</a> page and create your champion. After that, you can head over to the <a href="{{url_for('chat')}}">Battle</a> page and watch your champion battle it out in the ultimate chatbot battle.</p>
+        </section>
+    </main>
+    <footer>
+        <p>AI vs AI is a project maintained by <a href="https://github.com/LyubomirT">LyubomirT</a>.</p>
+    </footer>
+</body>
+</html>
