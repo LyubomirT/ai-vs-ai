@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #252525;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.hero, footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #d6d5d5;
+    color: #252525;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.aboutus {
+    color: rgb(46, 46, 46);
+    padding-top: 150px;
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+}
+
+.aboutus h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.aboutus p {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.aboutus a {
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
+}
+
+.aboutus a:hover {
+    color: rgb(114, 114, 114);
+    text-decoration: bold underline;
+}
+
+.howdoesitwork {
+    color: rgb(46, 46, 46);
+    padding-top: 75px;
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+}
+
+.howdoesitwork h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.howdoesitwork p {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.howdoesitwork a {
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
+}
+
+.howdoesitwork a:hover {
+    color: rgb(114, 114, 114);
+    text-decoration: bold underline;
+}
+
+.gettingstarted {
+    color: rgb(46, 46, 46);
+    padding-top: 75px;
+    text-align: center;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+}
+
+.gettingstarted h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.gettingstarted p {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+.gettingstarted a {
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
+}
+
+.gettingstarted a:hover {
+    color: rgb(114, 114, 114);
+    text-decoration: bold underline;
+}

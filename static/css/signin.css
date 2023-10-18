@@ -1,0 +1,50 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type="text"], input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9e4caf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}

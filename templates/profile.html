@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI vs AI - Ultimate Chatbot Battles || {{user.name}}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/profile.css')}}">
+</head>
+<body>
+    <header>
+        <h1>AI vs AI - Ultimate Chatbot Battles</h1>
+    </header>
+    <main>
+        <section class="profile">
+            <h2>{{user.name}}</h2>
+            <p>Username: {{user.username}}</p>
+            <p>Email: {{user.email}}</p>
+            <p>Display Name: {{user.display_name}}</p>
+            <a href="/logout">Logout</a>
+        </section>
+        <section class="champions">
+            <h2>Champions</h2>
+            {% if champions|length != 0 %}
+            {% for champion in champions %}
+            <div class="champion">
+                <h3>{{champion.name}}</h3>
+                <p>Created: {{champion.created}}</p>
+                <p>Updated: {{champion.updated}}</p>
+                <a href="/champion/{{champion.id}}">View</a>
+            </div>
+            {% endfor %}
+            {% else %}
+            <p>This user doesn't have any champions... yet.</p>
+            {% endif %}
+        </section>
+    </main>
+    <footer>
+        <p>AI vs AI is a project maintained by <a href="https://github.com/LyubomirT">LyubomirT</a>.</p>
+    </footer>
+</body>
+</html>

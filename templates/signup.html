@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/signup.css')}}">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form method="POST" action="/signup">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="display_name">Display Name:</label><br>
+        <input type="text" id="display_name" name="display_name" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+    <br>
+    <a href="/signin">Sign In</a>
+</body>
+</html>
