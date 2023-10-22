@@ -12,7 +12,7 @@
     <main>
         <section class="profile">
             <h2>{{user.name}}</h2>
-            <p>Username: {{user.username}}</p>
+            <p>Username: {{user.name}}</p>
             <p>Email: {{user.email}}</p>
             <p>Display Name: {{user.display_name}}</p>
             <a href="/logout">Logout</a>
@@ -23,9 +23,6 @@
             {% for champion in champions %}
             <div class="champion">
                 <h3>{{champion.name}}</h3>
-                <p>Created: {{champion.created}}</p>
-                <p>Updated: {{champion.updated}}</p>
-                <a href="/champion/{{champion.id}}">View</a>
             </div>
             {% endfor %}
             {% else %}

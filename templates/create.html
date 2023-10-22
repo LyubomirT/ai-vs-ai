@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI vs AI - Ultimate Chatbot Battles | Create</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/create.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1>AI vs AI - Ultimate Chatbot Battles</h1>
+        </header>
+        <main>
+            <section class="create">
+                <h2>Create your champion</h2>
+                <form action="{{url_for('create')}}" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your champion's name" required>
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Enter your champion's description" required maxlength="500"></textarea>
+                    <label for="instructions">Instructions</label>
+                    <textarea name="instructions" id="instructions" cols="30" rows="10" placeholder="Enter your champion's instructions" required maxlength="6000"></textarea>
+                    <label for="greeting">Greeting</label>
+                    <textarea name="greeting" id="greeting" cols="30" rows="10" placeholder="Enter your champion's greeting" required maxlength="500"></textarea>
+                    <input type="submit" value="Create">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>AI vs AI is a project maintained by <a href="https://github.com/LyubomirT">LyubomirT</a>.</p>
+        </footer>
+    </body>
+</html>

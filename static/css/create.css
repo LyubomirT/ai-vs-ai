@@ -1,0 +1,130 @@
+/* <!DOCTYPE html>
+<html>
+    <head>
+        <title>AI vs AI - Ultimate Chatbot Battles | Create</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/create.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1>AI vs AI - Ultimate Chatbot Battles</h1>
+        </header>
+        <main>
+            <section class="create">
+                <h2>Create your champion</h2>
+                <form action="{{url_for('create')}}" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your champion's name" required>
+                    <label for="instructions">Instructions</label>
+                    <textarea name="instructions" id="instructions" cols="30" rows="10" placeholder="Enter your champion's instructions" required maxlength="6000"></textarea>
+                    <label for="greeting">Greeting</label>
+                    <textarea name="greeting" id="greeting" cols="30" rows="10" placeholder="Enter your champion's greeting" required maxlength="500"></textarea>
+                    <input type="submit" value="Create">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>AI vs AI is a project maintained by <a href="https://github.com/LyubomirT">LyubomirT</a>.</p>
+        </footer>
+    </body>
+</html> */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #9e4caf;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main section {
+    margin-bottom: 50px;
+}
+
+main section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section p {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section a:hover {
+    color: #9e4caf;
+}
+
+main section label {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section input[type="text"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section textarea {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main section input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #9e4caf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+}  
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
